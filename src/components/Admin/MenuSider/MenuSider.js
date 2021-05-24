@@ -29,7 +29,13 @@ function MenuSider(props) {
                         <Icon type="user" />
                         <span className="nac-text">Usuarios</span>
                     </Link>
-                </Menu.Item>                
+                </Menu.Item>
+                <Menu.Item key="/admin/menu">
+                    <Link to={"/admin/menu"}>
+                        <Icon type="menu" />
+                        <span className="nac-text">Menú</span>
+                    </Link>
+                </Menu.Item>               
             </Menu>
         </Sider>
     );
